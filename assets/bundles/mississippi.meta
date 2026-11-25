@@ -1,0 +1,15 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "5e894777-ba9f-4072-9788-26aa58f8560a",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "compressionType": {},
+    "isRemoteBundle": false,
+    "isBundle": true,
+    "bundleName": "mississippi",
+    "priority": 1
+  }
+}

@@ -1,0 +1,2 @@
+key	value
+google_play_services_version	8487000

@@ -1,0 +1,15 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "6af1ff42-aafb-4c89-8cb7-e3826784a6b8",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "compressionType": {},
+    "isRemoteBundle": false,
+    "isBundle": true,
+    "bundleName": "nevada",
+    "priority": 1
+  }
+}

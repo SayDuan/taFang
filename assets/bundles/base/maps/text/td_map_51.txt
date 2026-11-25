@@ -1,0 +1,25 @@
+width=32 height=24
+LN   , -   NNNDNNLIN.NNLNNNNNNNN
+GL         $$$$$$$$$ $$$$$$$$NLN
+ND 7 7 7  =        5=       5.ND
+L$  ....D   ...La..  .De..L. MNN
+$   I.a..PPP.l....`  .....a. NIN
+    ...L.   $$X$$X$  $$.L... NNN
+(  4$$X$$ 7   X  X  7 5$$X$$ DNL
+      X   7  =X= X 7 57  X5 6NNN
+)     X7  4NF X  X   7  5X NNNGN
+  7   X4NLN.N X ...L.... X NLNNN
+* :ND X LNFMN X e...k..D X $$$$$
+   IN X $$NNI X ......I` X7    0
++ 5LN X   $$$ X $$$$`...7X   7 0
+.  $$ X       X7   5$X$$ X 7 4N.
+N ==  X  =    X   == X   X 4LINM
+N 5   X   5  6X      X   X  NNGN
+D   ....a  .`L....   X   X  $LNN
+N   .I.h.  F...I$$   X   X   NNN
+L   ....D  $...`5 6  X   X   NNN
+N   $fL.. 75$$$$    D......  NNG
+N   n$$$$7 7   56   ..a.L..  DNN
+N  7     47   55   6$$$$$$$  NNN
+I 7       4NIN  DNN          NLN
+NLNNNNNGNNNDNN00NGNNNNDNINNNNNNN

@@ -1,0 +1,23 @@
+编号	场合	文件	说明
+0	左轮	sound_revolver / sound_revolver2	两种随机
+1	加农炮	sound_cannon / sound_cannon2	两种随机
+2	火箭箭	sound_fire_arrow / sound_fire_arrow2	两种随机
+3	加特林	sound_gattling_gun / sound_gattling_gun2	两种随机
+4	猎枪	sound_shotgun	两次都是同一个
+5	步枪	sound_rifle	两次都是同一个
+6	火箭发射	sound_rocket_launch_1 / sound_rocket_launch_2	两种随机
+7	火箭爆炸	sound_rocket_explosion_1 / sound_rocket_explosion_2	两种随机
+8	毒液	sound_poison_splash_1 / sound_poison_splash_2	两种随机
+10	爆炸	sound_dynamite	常量名叫爆炸，播的是炸药声
+12	车被打爆	sound_wagon_explode	
+13	治疗	sound_healing_1	
+1	亡命之徒搭话	sound_desperado_yihaa	按单位类型播，不是开枪
+2	暴徒搭话	sound_mexican_arriba	
+3	类型3搭话	sound_deserter_yes_sir	
+4	本地人搭话	sound_indian_hugh	
+5	女射手搭话	sound_sniper_laughing	
+6	猎枪老人搭话	sound_grandpa_coughing	
+10-12,20-22	火车	sound_train	
+30-33	蒸汽船	sound_steamer	
+35	纵火狂搭话	sound_pyromaniac_1 / sound_pyromaniac_2	随机
+36	蛇油商人搭话	sound_snakeoilsalesman_1 / sound_snakeoilsalesman_2	随机

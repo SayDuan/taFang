@@ -1,0 +1,15 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "25bf07d3-70dc-4045-b47b-19b72f1062ef",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "compressionType": {},
+    "isRemoteBundle": false,
+    "isBundle": true,
+    "bundleName": "new-mexico",
+    "priority": 1
+  }
+}

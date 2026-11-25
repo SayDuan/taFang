@@ -1,0 +1,7 @@
+地区	关卡	循环1	循环2	循环3
+新墨西哥	1-10	music_loop2	music_loop3	music_loop4
+密西西比	11-20	music_loop2_mississippi	music_loop2	music_loop3
+俄勒冈	21-30	music_oregon	music_loop2	music_loop3
+达科他	31-40	music_dakota	music_loop2	music_loop3
+内华达	41-50	music_nevada	music_loop3	music_loop4
+阿拉斯加	51-60	music_alaska	music_loop2	music_loop3

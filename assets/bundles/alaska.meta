@@ -1,0 +1,15 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "e42bf701-fb48-405c-bbdd-3264fa777f99",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "compressionType": {},
+    "isRemoteBundle": false,
+    "isBundle": true,
+    "bundleName": "alaska",
+    "priority": 1
+  }
+}

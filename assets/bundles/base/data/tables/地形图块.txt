@@ -1,0 +1,33 @@
+背景值	图	怎么取图块	说明
+0-0	tiles_desert	第 0 列	能走的路，对应地图上的 $
+1-15	tiles_canyon	canyonImageRemap[值] 的列=余数、行=除以 4	峡谷边缘。remap 是 -1,9,6,0,8,3,-1,10,7,-1,1,5,2,11,4,-1
+17-19	tiles_desert_var	列 = 值-17	地面变体
+21-23	tiles_canyon_wall_var	列 = 值-21	地面变体
+25-27	tiles_canyon_wall_var	列 = 值-25+3	地面变体
+29-31	tiles_canyon_wall_var	第 1 行，列 = 值-29	地面变体
+33-35	tiles_canyon_wall_var	第 1 行，列 = 值-33+3	地面变体
+48-55	tiles_canyon_floor	第 0 列	峡谷内部。空格、出生点先被收成 48
+56-63	tiles_shadow	列 = 值-56	峡谷边
+65-67	tiles_canyon_floor_var	列 = 值-65	峡谷变体
+69-71	tiles_shadow_var	列 = 值-69	峡谷变体
+73-75	tiles_shadow_var	列 = 值-73+3	峡谷变体
+96-96	tiles_water	第 0 列	水。x 到 ~ 这些字节先被收成 96
+97-111	tiles_waterside	waterImageRemap[值-96]，列=余数、行=除以 4	水边。remap 和峡谷边缘那条一样
+113-115	tiles_waterside_var	列 = 值-113	水变体
+117-119	tiles_waterside_var	列 = 值-117+3	水变体
+121-123	tiles_waterside_var	第 1 行，列 = 值-121	水变体
+125-127	tiles_waterside_var	第 1 行，列 = 值-125+3	水变体
+路16-31	streetImageRemap	掩码只看上下左右，0 到 15	remap 顺序是 7,10,8,4,9,2,1,15,11,3,0,13,5,12,14,6。画 tiles_path
+路33-35	tiles_path_var	列 = 值-33+3	路层原来是 28 时，四分之三的机会换成 33、34 或 35
+路37-39	tiles_path_var	列 = 值-37	路层原来是 19 时，四分之三的机会换成 37、38 或 39
+路64	tiles_bridge_hori	整张	地图字节 80。这一段的第一格加左桥墩，段结束后的下一格加右桥墩
+路68	tiles_railway_hori	整张	地图字节 81。桥墩规则和 64 一样
+路72	tiles_railway_hori	整张	地图字节 82 到 85，横火车那一串
+路76	tiles_bridge_verti	整张	地图字节 88
+路80	tiles_railway_verti	整张	地图字节 89
+路84	tiles_railway_verti	整张	地图字节 90 到 93，竖火车那一串
+冰160-163	tiles_icefloes	列 = 值-160	只有阿拉斯加画这个。地图字节 160 开局在 160、161、162 里随机
+新墨西哥和内华达	tiles_canyon、tiles_desert、tiles_desert_var、tiles_waterside、tiles_waterside_var、tiles_path、tiles_path_var	格子编号不变	峡谷地面、阴影、水本体六个地区都用原来的 tiles_canyon_floor、tiles_shadow、tiles_water
+密西西比和俄勒冈	miss_tiles_canyon、miss_tiles_canyon_wall_var、miss_tiles_desert、miss_tiles_desert_var、miss_tiles_waterside、miss_tiles_waterside_var、miss_tiles_path、miss_tiles_path_var	格子编号不变	俄勒冈没有单独的地面图，加载的就是密西西比这套
+达科他和阿拉斯加	oregon_dakota_tiles_canyon、oregon_dakota_tiles_canyon_wall_var、oregon_dakota_tiles_desert、oregon_dakota_tiles_desert_var、oregon_dakota_tiles_waterside、oregon_dakota_tiles_waterside_var、oregon_dakota_tiles_path、oregon_dakota_tiles_path_var	格子编号不变	灌木和石头换成 e_1x1_tree_snow、e_1x1_rocks_snow_a、e_1x1_rocks_snow_b。阿拉斯加再多冰面
+说明			开局会把一部分地面和峡谷随机换成 4 张里的一张，所以同一关每次进来，草的花样可能不同。峡谷边和水边都按上下左右的邻居拼 0 到 15，再查同一条 remap。这套描边六个地区共用，只是画的时候换成该地区的图集。铁路和桥按路层的号画，不按地区换图。

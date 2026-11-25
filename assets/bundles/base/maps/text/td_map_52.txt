@@ -1,0 +1,25 @@
+width=32 height=24
+.tN()NNNNNN*+N.tNKN,-NN.tNN..N.t
+NNN  NK.tNN  NNNNNN  ...... $NNN
+$$$  $$$$X$  $$$$$$  $X$$$$  $$$
+    7    X 55      <5 X    <    
+   5     X 55      <5 X    6    
+NNN  K.....  ...E..  i.....  NNN
+.tN  ..p.e.  .....K  ......  .tN
+NKN  ...F..PP......PP..K.p.  NNN
+.tN  ......  ......  ......  N.t
+NNN  .D....  .E....  J...I.  NNN
+$$$  $$X$$$  $$$$$$  $$$$$$  $$$
+    5  X   <<      <?       5   
+   7   X   5;      5?      5    
+NNN  `.....  h.....  .J....  NNN
+N.t  ...K..  .l.p..  ...p..  N.t
+NKN  .p....PP..K...PP..`...  NKN
+.tN  I.....  ....F.  .....K  N.t
+NNN  .....J  ......  D.....  NNN
+$$$  $$$$$$  $$$$$$  $$X$$$  $$$
+   55      <<       =  X    5   
+                   =   X   5    
+NNN  N.tNNN  NNN.tN  NNNNNN  NNN
+.tN  NNN.tN  N.tNNN  .tNN.t  NKN
+NNN00NKNNNN00NNNNNN00NNNNNN00NNN

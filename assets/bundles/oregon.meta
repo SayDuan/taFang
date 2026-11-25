@@ -1,0 +1,15 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "9c32a0cd-36c6-469e-ae37-5c0d1256b2ee",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "compressionType": {},
+    "isRemoteBundle": false,
+    "isBundle": true,
+    "bundleName": "oregon",
+    "priority": 1
+  }
+}
